@@ -1,0 +1,1 @@
+"""Pacote email_sender."""

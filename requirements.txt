@@ -1,0 +1,53 @@
+# === GUI ===
+customtkinter==5.2.1
+
+# === Web Scraping ===
+playwright==1.49.1
+beautifulsoup4==4.12.3
+lxml==5.3.0
+
+# === CV Parsing ===
+pdfplumber==0.11.4
+python-docx==1.1.2
+
+# === AI ===
+openai>=1.50.0
+tiktoken==0.8.0
+
+# === Database ===
+SQLAlchemy==2.0.36
+alembic==1.14.0
+
+# === Validation ===
+pydantic==2.10.3
+pydantic-settings==2.7.0
+email-validator==2.2.0
+
+# === Security ===
+cryptography==44.0.0
+
+# === Logging ===
+loguru==0.7.3
+
+# === Notifications ===
+plyer==2.1.0
+
+# === Scheduling ===
+APScheduler==3.10.4
+
+# === Export ===
+openpyxl==3.1.5
+reportlab==4.2.5
+
+# === Charts (for trends dashboard) ===
+matplotlib==3.9.3
+
+# === Testing ===
+pytest==8.3.4
+pytest-asyncio==0.24.0
+pytest-cov==6.0.0
+
+# === Code Quality ===
+black==24.10.0
+isort==5.13.2
+ruff==0.8.4

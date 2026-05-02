@@ -1,0 +1,637 @@
+2026-04-29 13:16:35.983 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 13:16:35.984 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 13:16:35.984 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 13:16:35.984 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 13:16:35.996 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: C:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 13:16:36.133 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 13:16:36.135 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 13:16:44.742 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-29 13:21:44.884 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 13:21:44.886 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 13:21:44.887 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 13:21:44.888 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 13:21:44.931 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 13:21:45.144 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 13:21:45.146 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 13:22:18.183 | INFO     | ai.client:validate_key:139 — API Key da OpenAI validada com sucesso
+2026-04-29 13:22:18.190 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:22:18.363 | INFO     | utils.crypto:save_secrets:136 — Segredos salvos com sucesso (2 chaves atualizadas)
+2026-04-29 13:22:18.370 | INFO     | gui.widgets.api_key_setup:_on_success:177 — API Key configurada com sucesso
+2026-04-29 13:22:19.172 | INFO     | gui.app:_on_api_key_set:188 — API Key configurada com sucesso
+2026-04-29 13:22:26.680 | INFO     | ai.resume_parser:parse_resume:144 — Extraindo texto do currículo...
+2026-04-29 13:22:26.757 | INFO     | ai.resume_parser:parse_resume:151 — Analisando currículo com IA...
+2026-04-29 13:22:26.759 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:22:26.762 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:22:41.492 | INFO     | ai.resume_parser:parse_resume:163 — CV analisado: RYAN ZIMERMAN LEITE — 29 skills
+2026-04-29 13:23:00.955 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:23:03.304 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 13:23:06.078 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.9s (anti-detecção)
+2026-04-29 13:23:08.142 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 1: 1 vagas encontradas
+2026-04-29 13:23:09.819 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.5s (anti-detecção)
+2026-04-29 13:23:13.767 | DEBUG    | scraper.emprega_campinas:scrape_jobs:393 — Descartada (sem e-mail): Vagas
+2026-04-29 13:23:17.545 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:23:21.089 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 2: 1 vagas encontradas
+2026-04-29 13:23:22.022 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.5s (anti-detecção)
+2026-04-29 13:23:26.490 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 3: 1 vagas encontradas
+2026-04-29 13:23:28.001 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.9s (anti-detecção)
+2026-04-29 13:23:33.968 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 4: 1 vagas encontradas
+2026-04-29 13:23:38.987 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 13:23:43.258 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 5: 1 vagas encontradas
+2026-04-29 13:23:46.376 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.1s (anti-detecção)
+2026-04-29 13:23:49.272 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 6: 1 vagas encontradas
+2026-04-29 13:23:52.150 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.1s (anti-detecção)
+2026-04-29 13:23:55.392 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 7: 1 vagas encontradas
+2026-04-29 13:23:57.195 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:24:00.320 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 8: 1 vagas encontradas
+2026-04-29 13:24:01.262 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.4s (anti-detecção)
+2026-04-29 13:24:04.312 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 9: 1 vagas encontradas
+2026-04-29 13:24:06.177 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.7s (anti-detecção)
+2026-04-29 13:24:08.274 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 10: 1 vagas encontradas
+2026-04-29 13:24:09.274 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.7s (anti-detecção)
+2026-04-29 13:24:11.173 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 11: 1 vagas encontradas
+2026-04-29 13:24:11.948 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.4s (anti-detecção)
+2026-04-29 13:24:15.094 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 12: 1 vagas encontradas
+2026-04-29 13:24:15.938 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.0s (anti-detecção)
+2026-04-29 13:24:18.274 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 13: 1 vagas encontradas
+2026-04-29 13:24:19.860 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.6s (anti-detecção)
+2026-04-29 13:24:22.932 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 14: 1 vagas encontradas
+2026-04-29 13:24:23.818 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 13:24:26.458 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 15: 1 vagas encontradas
+2026-04-29 13:24:27.633 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.0s (anti-detecção)
+2026-04-29 13:24:29.782 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 16: 1 vagas encontradas
+2026-04-29 13:24:30.214 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.0s (anti-detecção)
+2026-04-29 13:24:32.321 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 17: 1 vagas encontradas
+2026-04-29 13:24:33.605 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.8s (anti-detecção)
+2026-04-29 13:24:35.643 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 18: 1 vagas encontradas
+2026-04-29 13:24:36.251 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 13:24:38.605 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 19: 1 vagas encontradas
+2026-04-29 13:24:39.320 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 13:24:41.777 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 20: 1 vagas encontradas
+2026-04-29 13:24:42.652 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:24:45.960 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 21: 1 vagas encontradas
+2026-04-29 13:24:46.858 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.0s (anti-detecção)
+2026-04-29 13:24:50.502 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 22: 1 vagas encontradas
+2026-04-29 13:24:51.918 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:24:55.139 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 23: 1 vagas encontradas
+2026-04-29 13:24:56.112 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.0s (anti-detecção)
+2026-04-29 13:24:59.819 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 24: 1 vagas encontradas
+2026-04-29 13:25:01.392 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.3s (anti-detecção)
+2026-04-29 13:25:03.924 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 25: 1 vagas encontradas
+2026-04-29 13:25:04.969 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.6s (anti-detecção)
+2026-04-29 13:25:06.810 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 26: 1 vagas encontradas
+2026-04-29 13:25:07.395 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:25:14.930 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 27: 1 vagas encontradas
+2026-04-29 13:25:16.749 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.5s (anti-detecção)
+2026-04-29 13:25:19.498 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 28: 1 vagas encontradas
+2026-04-29 13:25:20.226 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.8s (anti-detecção)
+2026-04-29 13:25:22.427 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 29: 1 vagas encontradas
+2026-04-29 13:25:23.653 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.5s (anti-detecção)
+2026-04-29 13:25:27.852 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 30: 1 vagas encontradas
+2026-04-29 13:25:28.593 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:25:32.028 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 31: 1 vagas encontradas
+2026-04-29 13:25:32.931 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:25:35.885 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 32: 1 vagas encontradas
+2026-04-29 13:25:36.969 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 13:25:39.744 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 33: 1 vagas encontradas
+2026-04-29 13:25:40.794 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 13:25:44.077 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 34: 1 vagas encontradas
+2026-04-29 13:25:44.759 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.7s (anti-detecção)
+2026-04-29 13:25:46.840 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 35: 1 vagas encontradas
+2026-04-29 13:25:47.735 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.9s (anti-detecção)
+2026-04-29 13:25:49.761 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 36: 1 vagas encontradas
+2026-04-29 13:25:50.454 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.9s (anti-detecção)
+2026-04-29 13:25:54.174 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 37: 1 vagas encontradas
+2026-04-29 13:25:55.459 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.9s (anti-detecção)
+2026-04-29 13:25:59.003 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 38: 1 vagas encontradas
+2026-04-29 13:25:59.865 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 13:26:02.477 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 39: 1 vagas encontradas
+2026-04-29 13:26:15.854 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.5s (anti-detecção)
+2026-04-29 13:26:19.621 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 40: 1 vagas encontradas
+2026-04-29 13:26:30.668 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:26:30.708 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:26:30.830 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:26:35.480 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.9s (anti-detecção)
+2026-04-29 13:26:41.125 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 41: 1 vagas encontradas
+2026-04-29 13:26:42.047 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.8s (anti-detecção)
+2026-04-29 13:26:43.901 | INFO     | scraper.emprega_campinas:scrape_jobs:341 — Nenhuma vaga na página 42 — fim da paginação
+2026-04-29 13:26:44.371 | INFO     | scraper.emprega_campinas:scrape_jobs:424 — Scraping concluído: 1 brutas, 0 com e-mail, 1 descartadas (sem e-mail)
+2026-04-29 13:31:29.257 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 13:31:29.257 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 13:31:29.257 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 13:31:29.257 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 13:31:29.295 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 13:31:29.407 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 13:31:29.407 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 13:31:31.720 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:31:39.618 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 13:31:52.545 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:31:55.742 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 13:31:55.752 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=1
+2026-04-29 13:31:55.999 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 1: 1 vagas encontradas
+2026-04-29 13:31:56.004 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://empregacampinas.com.br/categoria/vaga/
+2026-04-29 13:31:56.039 | DEBUG    | scraper.emprega_campinas:scrape_jobs:386 — Descartada (sem e-mail): Vagas
+2026-04-29 13:31:56.046 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=2
+2026-04-29 13:31:56.084 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 2: 1 vagas encontradas
+2026-04-29 13:31:56.089 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=3
+2026-04-29 13:31:56.128 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 3: 1 vagas encontradas
+2026-04-29 13:31:56.136 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=4
+2026-04-29 13:31:56.174 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 4: 1 vagas encontradas
+2026-04-29 13:31:56.177 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=5
+2026-04-29 13:31:56.209 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 5: 1 vagas encontradas
+2026-04-29 13:31:56.219 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=6
+2026-04-29 13:31:56.258 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 6: 1 vagas encontradas
+2026-04-29 13:31:56.265 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=7
+2026-04-29 13:31:56.286 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 7: 1 vagas encontradas
+2026-04-29 13:31:56.290 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=8
+2026-04-29 13:31:56.313 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 8: 1 vagas encontradas
+2026-04-29 13:31:56.316 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=9
+2026-04-29 13:31:56.342 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 9: 1 vagas encontradas
+2026-04-29 13:31:56.345 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=10
+2026-04-29 13:31:56.366 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 10: 1 vagas encontradas
+2026-04-29 13:31:56.375 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=11
+2026-04-29 13:31:56.398 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 11: 1 vagas encontradas
+2026-04-29 13:31:56.404 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=12
+2026-04-29 13:31:56.429 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 12: 1 vagas encontradas
+2026-04-29 13:31:56.433 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=13
+2026-04-29 13:31:56.457 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 13: 1 vagas encontradas
+2026-04-29 13:31:56.462 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=14
+2026-04-29 13:31:56.495 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 14: 1 vagas encontradas
+2026-04-29 13:31:56.499 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=15
+2026-04-29 13:31:56.531 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 15: 1 vagas encontradas
+2026-04-29 13:31:56.540 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=16
+2026-04-29 13:31:56.567 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 16: 1 vagas encontradas
+2026-04-29 13:31:56.577 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=17
+2026-04-29 13:31:56.607 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 17: 1 vagas encontradas
+2026-04-29 13:31:56.616 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=18
+2026-04-29 13:31:56.640 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 18: 1 vagas encontradas
+2026-04-29 13:31:56.645 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=19
+2026-04-29 13:31:56.672 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 19: 1 vagas encontradas
+2026-04-29 13:31:56.676 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=20
+2026-04-29 13:31:56.696 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 20: 1 vagas encontradas
+2026-04-29 13:31:56.698 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=21
+2026-04-29 13:31:56.727 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 21: 1 vagas encontradas
+2026-04-29 13:31:56.731 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=22
+2026-04-29 13:31:56.749 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 22: 1 vagas encontradas
+2026-04-29 13:31:56.757 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=23
+2026-04-29 13:31:56.777 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 23: 1 vagas encontradas
+2026-04-29 13:31:56.781 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=24
+2026-04-29 13:31:56.807 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 24: 1 vagas encontradas
+2026-04-29 13:31:56.816 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=25
+2026-04-29 13:31:56.840 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 25: 1 vagas encontradas
+2026-04-29 13:31:56.845 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=26
+2026-04-29 13:31:56.871 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 26: 1 vagas encontradas
+2026-04-29 13:31:56.875 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=27
+2026-04-29 13:31:56.903 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 27: 1 vagas encontradas
+2026-04-29 13:31:56.907 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=28
+2026-04-29 13:31:56.927 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 28: 1 vagas encontradas
+2026-04-29 13:31:56.931 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=29
+2026-04-29 13:31:56.963 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 29: 1 vagas encontradas
+2026-04-29 13:31:56.966 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=30
+2026-04-29 13:31:56.992 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 30: 1 vagas encontradas
+2026-04-29 13:31:57.004 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=31
+2026-04-29 13:31:57.027 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 31: 1 vagas encontradas
+2026-04-29 13:31:57.037 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=32
+2026-04-29 13:31:57.066 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 32: 1 vagas encontradas
+2026-04-29 13:31:57.074 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=33
+2026-04-29 13:31:57.099 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 33: 1 vagas encontradas
+2026-04-29 13:31:57.107 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=34
+2026-04-29 13:31:57.127 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 34: 1 vagas encontradas
+2026-04-29 13:31:57.131 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=35
+2026-04-29 13:31:57.154 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 35: 1 vagas encontradas
+2026-04-29 13:31:57.157 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=36
+2026-04-29 13:31:57.177 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 36: 1 vagas encontradas
+2026-04-29 13:31:57.187 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=37
+2026-04-29 13:31:57.207 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 37: 1 vagas encontradas
+2026-04-29 13:31:57.216 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=38
+2026-04-29 13:31:57.246 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 38: 1 vagas encontradas
+2026-04-29 13:31:57.254 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=39
+2026-04-29 13:31:57.275 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 39: 1 vagas encontradas
+2026-04-29 13:31:57.277 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=40
+2026-04-29 13:31:57.299 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 40: 1 vagas encontradas
+2026-04-29 13:31:57.307 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=41
+2026-04-29 13:31:57.327 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 41: 1 vagas encontradas
+2026-04-29 13:31:57.331 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=42
+2026-04-29 13:31:57.331 | INFO     | scraper.emprega_campinas:scrape_jobs:341 — Nenhuma vaga na página 42 — fim da paginação
+2026-04-29 13:31:57.942 | INFO     | scraper.emprega_campinas:scrape_jobs:412 — Scraping concluído: 1 brutas, 0 com e-mail, 1 descartadas (sem e-mail)
+2026-04-29 13:32:10.042 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:32:13.215 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 13:32:13.223 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=1
+2026-04-29 13:32:13.254 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 1: 1 vagas encontradas
+2026-04-29 13:32:13.258 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://empregacampinas.com.br/categoria/vaga/
+2026-04-29 13:32:13.290 | DEBUG    | scraper.emprega_campinas:scrape_jobs:386 — Descartada (sem e-mail): Vagas
+2026-04-29 13:32:13.296 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=2
+2026-04-29 13:32:13.319 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 2: 1 vagas encontradas
+2026-04-29 13:32:13.325 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=3
+2026-04-29 13:32:13.350 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 3: 1 vagas encontradas
+2026-04-29 13:32:13.357 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=4
+2026-04-29 13:32:13.379 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 4: 1 vagas encontradas
+2026-04-29 13:32:13.379 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=5
+2026-04-29 13:32:13.408 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 5: 1 vagas encontradas
+2026-04-29 13:32:13.414 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=6
+2026-04-29 13:32:13.449 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 6: 1 vagas encontradas
+2026-04-29 13:32:13.454 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=7
+2026-04-29 13:32:13.481 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 7: 1 vagas encontradas
+2026-04-29 13:32:13.490 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=8
+2026-04-29 13:32:13.524 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 8: 1 vagas encontradas
+2026-04-29 13:32:13.532 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=9
+2026-04-29 13:32:13.699 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 9: 1 vagas encontradas
+2026-04-29 13:32:13.708 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=10
+2026-04-29 13:32:13.732 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 10: 1 vagas encontradas
+2026-04-29 13:32:13.732 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=11
+2026-04-29 13:32:13.756 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 11: 1 vagas encontradas
+2026-04-29 13:32:13.759 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=12
+2026-04-29 13:32:13.789 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 12: 1 vagas encontradas
+2026-04-29 13:32:13.792 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=13
+2026-04-29 13:32:13.816 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 13: 1 vagas encontradas
+2026-04-29 13:32:13.816 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=14
+2026-04-29 13:32:13.839 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 14: 1 vagas encontradas
+2026-04-29 13:32:13.842 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=15
+2026-04-29 13:32:13.865 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 15: 1 vagas encontradas
+2026-04-29 13:32:13.866 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=16
+2026-04-29 13:32:13.899 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 16: 1 vagas encontradas
+2026-04-29 13:32:13.904 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=17
+2026-04-29 13:32:13.928 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 17: 1 vagas encontradas
+2026-04-29 13:32:13.928 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=18
+2026-04-29 13:32:13.949 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 18: 1 vagas encontradas
+2026-04-29 13:32:13.959 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=19
+2026-04-29 13:32:13.981 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 19: 1 vagas encontradas
+2026-04-29 13:32:13.981 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=20
+2026-04-29 13:32:14.004 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 20: 1 vagas encontradas
+2026-04-29 13:32:14.007 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=21
+2026-04-29 13:32:14.028 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 21: 1 vagas encontradas
+2026-04-29 13:32:14.034 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=22
+2026-04-29 13:32:14.059 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 22: 1 vagas encontradas
+2026-04-29 13:32:14.066 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=23
+2026-04-29 13:32:14.082 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 23: 1 vagas encontradas
+2026-04-29 13:32:14.092 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=24
+2026-04-29 13:32:14.116 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 24: 1 vagas encontradas
+2026-04-29 13:32:14.126 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=25
+2026-04-29 13:32:14.142 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 25: 1 vagas encontradas
+2026-04-29 13:32:14.146 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=26
+2026-04-29 13:32:14.164 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 26: 1 vagas encontradas
+2026-04-29 13:32:14.166 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=27
+2026-04-29 13:32:14.192 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 27: 1 vagas encontradas
+2026-04-29 13:32:14.196 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=28
+2026-04-29 13:32:14.222 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 28: 1 vagas encontradas
+2026-04-29 13:32:14.224 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=29
+2026-04-29 13:32:14.244 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 29: 1 vagas encontradas
+2026-04-29 13:32:14.246 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=30
+2026-04-29 13:32:14.266 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 30: 1 vagas encontradas
+2026-04-29 13:32:14.272 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=31
+2026-04-29 13:32:14.291 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 31: 1 vagas encontradas
+2026-04-29 13:32:14.296 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=32
+2026-04-29 13:32:14.316 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 32: 1 vagas encontradas
+2026-04-29 13:32:14.324 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=33
+2026-04-29 13:32:14.342 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 33: 1 vagas encontradas
+2026-04-29 13:32:14.350 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=34
+2026-04-29 13:32:14.366 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 34: 1 vagas encontradas
+2026-04-29 13:32:14.374 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=35
+2026-04-29 13:32:14.395 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 35: 1 vagas encontradas
+2026-04-29 13:32:14.399 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=36
+2026-04-29 13:32:14.423 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 36: 1 vagas encontradas
+2026-04-29 13:32:14.427 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=37
+2026-04-29 13:32:14.453 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 37: 1 vagas encontradas
+2026-04-29 13:32:14.457 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=38
+2026-04-29 13:32:14.478 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 38: 1 vagas encontradas
+2026-04-29 13:32:14.482 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=39
+2026-04-29 13:32:14.507 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 39: 1 vagas encontradas
+2026-04-29 13:32:14.508 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=40
+2026-04-29 13:32:14.549 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 40: 1 vagas encontradas
+2026-04-29 13:32:14.559 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=41
+2026-04-29 13:32:14.589 | INFO     | scraper.emprega_campinas:scrape_jobs:344 — Página 41: 1 vagas encontradas
+2026-04-29 13:32:14.592 | DEBUG    | scraper.emprega_campinas:get_cached_page:48 — Cache hit: https://www.empregacampinas.com.br/vagas-de-emprego?q=Programador&page=42
+2026-04-29 13:32:14.595 | INFO     | scraper.emprega_campinas:scrape_jobs:341 — Nenhuma vaga na página 42 — fim da paginação
+2026-04-29 13:32:15.008 | INFO     | scraper.emprega_campinas:scrape_jobs:412 — Scraping concluído: 1 brutas, 0 com e-mail, 1 descartadas (sem e-mail)
+2026-04-29 13:32:21.654 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-29 13:48:10.404 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 13:48:10.405 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 13:48:10.405 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 13:48:10.406 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 13:48:10.443 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 13:48:10.616 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 13:48:10.617 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 13:48:12.685 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:48:18.852 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 13:48:35.836 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:48:37.640 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 13:48:40.647 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.6s (anti-detecção)
+2026-04-29 13:48:43.976 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 15 vagas encontradas
+2026-04-29 13:48:43.977 | INFO     | scraper.emprega_campinas:scrape_jobs:402 — Página 1: 15 vagas encontradas
+2026-04-29 13:48:44.622 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.5s (anti-detecção)
+2026-04-29 13:48:46.251 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:48:46.252 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['vagasempresa1597@gmail.com']
+2026-04-29 13:48:46.766 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.1s (anti-detecção)
+2026-04-29 13:48:51.142 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:48:51.143 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['tradingtalentaquisition@gmail.com']
+2026-04-29 13:48:51.786 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.8s (anti-detecção)
+2026-04-29 13:48:53.598 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:48:53.599 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamentobeq@gmail.com']
+2026-04-29 13:48:53.796 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.9s (anti-detecção)
+2026-04-29 13:48:55.688 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:48:55.688 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['caio.altheman@contechbrasil.com']
+2026-04-29 13:48:55.897 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-29 13:48:59.551 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:48:59.552 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['selecao6@novacampinasrh.com.br']
+2026-04-29 13:49:00.583 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.2s (anti-detecção)
+2026-04-29 13:49:06.826 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:06.827 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['rh@qvsaudio.com.br']
+2026-04-29 13:49:08.141 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.2s (anti-detecção)
+2026-04-29 13:49:11.397 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:11.398 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['selecaobra@outlook.com']
+2026-04-29 13:49:11.973 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.2s (anti-detecção)
+2026-04-29 13:49:15.310 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:15.311 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['novos.talentos@lanmarmetal.com.br']
+2026-04-29 13:49:15.898 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-29 13:49:19.620 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:19.621 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento@sborh.com.br']
+2026-04-29 13:49:20.007 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.8s (anti-detecção)
+2026-04-29 13:49:22.834 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:22.835 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['faustinousinagem@terra.com.br']
+2026-04-29 13:49:23.452 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.1s (anti-detecção)
+2026-04-29 13:49:25.615 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:25.616 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['selecao@plasticosmb.com.br']
+2026-04-29 13:49:26.029 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.6s (anti-detecção)
+2026-04-29 13:49:27.744 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:27.744 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['emprega@terra.com.br']
+2026-04-29 13:49:27.978 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 13:49:30.243 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:30.243 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['emprega@terra.com.br']
+2026-04-29 13:49:30.419 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.8s (anti-detecção)
+2026-04-29 13:49:33.253 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:33.254 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['vaga1404@gmail.com']
+2026-04-29 13:49:33.460 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.6s (anti-detecção)
+2026-04-29 13:49:35.053 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 13:49:35.053 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['vaga1404@gmail.com']
+2026-04-29 13:49:35.895 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.6s (anti-detecção)
+2026-04-29 13:49:37.510 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 0 vagas encontradas
+2026-04-29 13:49:37.510 | INFO     | scraper.emprega_campinas:scrape_jobs:399 — Nenhuma vaga na página 2 — fim da paginação
+2026-04-29 13:49:37.632 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 15 brutas, 15 com e-mail, 0 descartadas (sem e-mail)
+2026-04-29 13:49:37.635 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:49:37.635 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 13:49:37.639 | INFO     | ai.matcher:process_one:115 — Analisando vaga 1/15: "PROGRAMADOR CENTRO DE USINAGEM / NOVA ODESSA / 1 VAGA(S)" @ Empresa do Ramo Industrial
+2026-04-29 13:49:38.268 | INFO     | ai.matcher:process_one:115 — Analisando vaga 2/15: "PROGRAMADOR DE PRODUÇÃO / VALINHOS / 1 VAGA(S)" @ Trading Care
+2026-04-29 13:49:38.272 | INFO     | ai.matcher:process_one:115 — Analisando vaga 3/15: "PROGRAMADOR DE OBRAS / HORTOLÂNDIA / 1 VAGA(S)" @ B&Q ENERGIA
+2026-04-29 13:49:38.277 | INFO     | ai.matcher:process_one:115 — Analisando vaga 4/15: "PROGRAMADOR E OPERADOR CNC / VALINHOS / 1 VAGA(S)" @ CONTECH PRODUTOS BIODEGRADÁVEIS
+2026-04-29 13:49:38.279 | INFO     | ai.matcher:process_one:115 — Analisando vaga 5/15: "ANALISTA/PROGRAMADOR DE PCP / VINHEDO / 1 VAGA(S)" @ Indústria Química
+2026-04-29 13:49:38.282 | INFO     | ai.matcher:process_one:115 — Analisando vaga 6/15: "PROGRAMADOR DE MÁQUINAS (CNC / / COSMÓPOLIS / 1 VAGA(S)" @ Empresa no segmento de Produção
+2026-04-29 13:49:38.291 | INFO     | ai.matcher:process_one:115 — Analisando vaga 7/15: "PROGRAMADOR DE MANUTENÇÃO / SUMARÉ/SP / 1 VAGA(S)" @ Confidencial
+2026-04-29 13:49:38.292 | INFO     | ai.matcher:process_one:115 — Analisando vaga 8/15: "PROGRAMADOR DE MÁQUINA CNC / HORTOLÂNDIA / 1 VAGA(S)" @ Lanmar Industria Metalúrgica
+2026-04-29 13:49:38.293 | INFO     | ai.matcher:process_one:115 — Analisando vaga 9/15: "ESTÁGIO – PROGRAMADOR DELPHI / SANTA BARBARA D’OESTE / 1 VAGA(S)" @ SBO RH em parceria com empresa de tecnologia.
+2026-04-29 13:49:38.293 | INFO     | ai.matcher:process_one:115 — Analisando vaga 10/15: "PROGRAMADOR CNC / CAMPINAS / 1 VAGA(S)" @ EMPRESA DE USINAGEM
+2026-04-29 13:49:38.293 | INFO     | ai.matcher:process_one:115 — Analisando vaga 11/15: "PROGRAMADOR DE SISTEMAS / PEDREIRA / 1 VAGA(S)" @ Plásticos MB
+2026-04-29 13:49:38.293 | INFO     | ai.matcher:process_one:115 — Analisando vaga 12/15: "PROGRAMADOR DELPHI / NOVA ODESSA / 2 VAGA(S)" @ empresa de desenvolvimento de sistemas
+2026-04-29 13:49:38.293 | INFO     | ai.matcher:process_one:115 — Analisando vaga 13/15: "PROGRAMADOR C# / NOVA ODESSA / 1 VAGA(S)" @ empresa de desenvolvimento de sistemas
+2026-04-29 13:49:38.293 | INFO     | ai.matcher:process_one:115 — Analisando vaga 14/15: "PROGRAMADOR/DEV / SÃO PAULO / 5 VAGA(S)" @ Empresa na Area de Tecnologia ** Home Office **
+2026-04-29 13:49:38.293 | INFO     | ai.matcher:process_one:115 — Analisando vaga 15/15: "PROGRAMADOR/DEV / SÃO PAULO / 5 VAGA(S)" @ Empresa na Area de Tecnologia ** Home Office **
+2026-04-29 13:49:44.874 | INFO     | ai.matcher:process_one:120 — Vaga 1: "PROGRAMADOR CENTRO DE USINAGEM / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:45.724 | INFO     | ai.matcher:process_one:120 — Vaga 2: "PROGRAMADOR DE PRODUÇÃO / VALINHOS / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:47.393 | INFO     | ai.matcher:process_one:120 — Vaga 3: "PROGRAMADOR DE OBRAS / HORTOLÂNDIA / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:48.317 | INFO     | ai.matcher:process_one:120 — Vaga 4: "PROGRAMADOR E OPERADOR CNC / VALINHOS / 1 VAGA(S)" — Score 0%
+2026-04-29 13:49:49.706 | INFO     | ai.matcher:process_one:120 — Vaga 5: "ANALISTA/PROGRAMADOR DE PCP / VINHEDO / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:50.893 | INFO     | ai.matcher:process_one:120 — Vaga 6: "PROGRAMADOR DE MÁQUINAS (CNC / / COSMÓPOLIS / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:52.856 | INFO     | ai.matcher:process_one:120 — Vaga 7: "PROGRAMADOR DE MANUTENÇÃO / SUMARÉ/SP / 1 VAGA(S)" — Score 70%
+2026-04-29 13:49:53.356 | INFO     | ai.matcher:process_one:120 — Vaga 9: "ESTÁGIO – PROGRAMADOR DELPHI / SANTA BARBARA D’OESTE / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:55.374 | INFO     | ai.matcher:process_one:120 — Vaga 8: "PROGRAMADOR DE MÁQUINA CNC / HORTOLÂNDIA / 1 VAGA(S)" — Score 0%
+2026-04-29 13:49:55.486 | INFO     | ai.matcher:process_one:120 — Vaga 10: "PROGRAMADOR CNC / CAMPINAS / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:56.233 | INFO     | ai.matcher:process_one:120 — Vaga 11: "PROGRAMADOR DE SISTEMAS / PEDREIRA / 1 VAGA(S)" — Score 40%
+2026-04-29 13:49:59.819 | INFO     | ai.matcher:process_one:120 — Vaga 15: "PROGRAMADOR/DEV / SÃO PAULO / 5 VAGA(S)" — Score 40%
+2026-04-29 13:50:02.294 | INFO     | ai.matcher:process_one:120 — Vaga 12: "PROGRAMADOR DELPHI / NOVA ODESSA / 2 VAGA(S)" — Score 40%
+2026-04-29 13:50:03.257 | INFO     | ai.matcher:process_one:120 — Vaga 14: "PROGRAMADOR/DEV / SÃO PAULO / 5 VAGA(S)" — Score 40%
+2026-04-29 13:51:32.947 | INFO     | gui.app:_on_save_job:425 — Vaga salva: PROGRAMADOR DE MANUTENÇÃO / SUMARÉ/SP / 1 VAGA(S)
+2026-04-29 13:51:40.979 | INFO     | gui.app:_on_save_job:425 — Vaga dessalva: PROGRAMADOR DE MANUTENÇÃO / SUMARÉ/SP / 1 VAGA(S)
+2026-04-29 13:53:05.993 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-29 14:20:29.129 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 14:20:29.129 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 14:20:29.129 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 14:20:29.133 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 14:20:29.167 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 14:20:29.408 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 14:20:29.409 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 14:20:31.177 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:20:42.569 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 14:20:46.684 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:20:48.218 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:20:48.219 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:20:49.400 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.5s (anti-detecção)
+2026-04-29 14:20:52.993 | ERROR    | gui.app:_search_pipeline:340 — Erro no scraper Google Jobs: Google bloqueou (CAPTCHA). Tente novamente em minutos.
+2026-04-29 14:21:00.659 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:21:02.619 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:21:02.620 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:21:03.606 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.3s (anti-detecção)
+2026-04-29 14:21:07.453 | ERROR    | gui.app:_search_pipeline:340 — Erro no scraper Google Jobs: Google bloqueou (CAPTCHA). Tente novamente em minutos.
+2026-04-29 14:21:09.529 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:21:10.537 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:21:10.538 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:21:11.377 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.8s (anti-detecção)
+2026-04-29 14:21:14.630 | ERROR    | gui.app:_search_pipeline:340 — Erro no scraper Google Jobs: Google bloqueou (CAPTCHA). Tente novamente em minutos.
+2026-04-29 14:21:36.443 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:21:44.289 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:21:44.289 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:21:45.201 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-29 14:21:48.960 | ERROR    | gui.app:_search_pipeline:340 — Erro no scraper Google Jobs: Google bloqueou (CAPTCHA). Tente novamente em minutos.
+2026-04-29 14:21:50.803 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:21:51.868 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:21:51.869 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:21:52.670 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.8s (anti-detecção)
+2026-04-29 14:21:56.720 | ERROR    | gui.app:_search_pipeline:340 — Erro no scraper Google Jobs: Google bloqueou (CAPTCHA). Tente novamente em minutos.
+2026-04-29 14:23:15.832 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-29 14:23:22.529 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 14:23:22.531 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 14:23:22.531 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 14:23:22.531 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 14:23:22.546 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 14:23:22.571 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 14:23:22.571 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 14:23:24.110 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:23:29.890 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 14:23:39.394 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:23:40.709 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:23:40.709 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:23:41.702 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.7s (anti-detecção)
+2026-04-29 14:23:45.431 | ERROR    | scraper.google_jobs:scrape_google_jobs:332 — CAPTCHA detectado e o navegador está oculto.
+2026-04-29 14:23:45.481 | ERROR    | gui.app:_search_pipeline:340 — Erro no scraper Google Jobs: Google bloqueou (CAPTCHA). Marque 'Exibir automação no navegador' e tente novamente para resolver manualmente.
+2026-04-29 14:23:46.340 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:23:48.320 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:23:48.321 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:23:49.018 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.9s (anti-detecção)
+2026-04-29 14:23:52.973 | WARNING  | scraper.google_jobs:scrape_google_jobs:335 — Google solicitou CAPTCHA. Aguardando resolução manual...
+2026-04-29 14:24:26.687 | ERROR    | gui.app:_search_pipeline:340 — Erro no scraper Google Jobs: Tempo esgotado para resolver o CAPTCHA (5 minutos).
+2026-04-29 14:24:27.536 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-29 14:25:51.505 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 14:25:51.505 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 14:25:51.505 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 14:25:51.505 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 14:25:51.530 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 14:25:51.562 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 14:25:51.562 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 14:25:53.130 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:25:57.693 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 14:26:06.301 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:26:08.069 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:26:08.070 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+Campinas%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:26:09.172 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.7s (anti-detecção)
+2026-04-29 14:26:12.924 | WARNING  | scraper.google_jobs:scrape_google_jobs:335 — Google solicitou CAPTCHA. Aguardando resolução manual...
+2026-04-29 14:26:22.030 | INFO     | scraper.google_jobs:scrape_google_jobs:346 — CAPTCHA resolvido com sucesso! Retomando scraping...
+2026-04-29 14:26:22.032 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.2s (anti-detecção)
+2026-04-29 14:26:25.230 | WARNING  | scraper.google_jobs:scrape_google_jobs:356 — Nenhuma vaga encontrada no Google Jobs
+2026-04-29 14:26:46.929 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 14:26:48.621 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:26:50.171 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:26:50.173 | INFO     | scraper.google_jobs:scrape_google_jobs:316 — Google Jobs URL: https://www.google.com/search?q=Programador+RPA+S%C3%A3o+Paulo%2C+SP&udm=8&hl=pt-BR
+2026-04-29 14:26:52.038 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-29 14:26:55.468 | WARNING  | scraper.google_jobs:scrape_google_jobs:335 — Google solicitou CAPTCHA. Aguardando resolução manual...
+2026-04-29 14:26:59.365 | INFO     | scraper.google_jobs:scrape_google_jobs:346 — CAPTCHA resolvido com sucesso! Retomando scraping...
+2026-04-29 14:26:59.368 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.8s (anti-detecção)
+2026-04-29 14:27:03.213 | WARNING  | scraper.google_jobs:scrape_google_jobs:356 — Nenhuma vaga encontrada no Google Jobs
+2026-04-29 14:27:10.805 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-29 14:36:25.162 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 14:36:25.165 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 14:36:25.169 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 14:36:25.179 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 14:36:25.331 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 14:36:25.744 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 14:36:25.746 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 14:36:27.775 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:36:35.193 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 14:36:50.828 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:36:52.875 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:36:57.608 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.6s (anti-detecção)
+2026-04-29 14:37:00.478 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 0 vagas encontradas
+2026-04-29 14:37:00.482 | INFO     | scraper.emprega_campinas:scrape_jobs:399 — Nenhuma vaga na página 1 — fim da paginação
+2026-04-29 14:37:01.322 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 0 brutas, 0 com e-mail, 0 descartadas (sem e-mail)
+2026-04-29 14:37:10.762 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:37:12.558 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:37:15.430 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 14:37:18.190 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 14 vagas encontradas
+2026-04-29 14:37:18.206 | INFO     | scraper.emprega_campinas:scrape_jobs:402 — Página 1: 14 vagas encontradas
+2026-04-29 14:37:18.748 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-29 14:37:22.420 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: atendimento@saborpaulista.com
+2026-04-29 14:37:22.424 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:22.425 | DEBUG    | scraper.email_extractor:filter_valid_emails:161 — Nenhum e-mail válido (de 2 encontrados)
+2026-04-29 14:37:22.426 | DEBUG    | scraper.emprega_campinas:scrape_jobs:447 — Descartada (sem e-mail): MOTORISTA VEÍCULO SEMI PESADO / HORTOLÂNDIA / 2 VAGA(S)
+2026-04-29 14:37:24.544 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.1s (anti-detecção)
+2026-04-29 14:37:26.855 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:26.865 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['dan.serpa@hotmail.com']
+2026-04-29 14:37:27.263 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.2s (anti-detecção)
+2026-04-29 14:37:30.827 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:30.832 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento@gmreis.com.br']
+2026-04-29 14:37:31.491 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.7s (anti-detecção)
+2026-04-29 14:37:33.328 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:33.329 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento@bortolottocontabil.com.br']
+2026-04-29 14:37:33.791 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.0s (anti-detecção)
+2026-04-29 14:37:35.912 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: atendimento@saborpaulista.com
+2026-04-29 14:37:35.919 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:35.941 | DEBUG    | scraper.email_extractor:filter_valid_emails:161 — Nenhum e-mail válido (de 2 encontrados)
+2026-04-29 14:37:35.980 | DEBUG    | scraper.emprega_campinas:scrape_jobs:447 — Descartada (sem e-mail): AUXILIAR DE PRODUÇÃO / HORTOLÂNDIA / 10 VAGA(S)
+2026-04-29 14:37:36.484 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.3s (anti-detecção)
+2026-04-29 14:37:39.774 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:39.774 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['campinascambui@centerpanos.com.br']
+2026-04-29 14:37:41.037 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.0s (anti-detecção)
+2026-04-29 14:37:45.374 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:45.405 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento@hrspb.com.br']
+2026-04-29 14:37:46.574 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 14:37:49.888 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:49.889 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['rh@mixfiscal.com.br']
+2026-04-29 14:37:50.446 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.3s (anti-detecção)
+2026-04-29 14:37:53.956 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:53.994 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento@hrspb.com.br']
+2026-04-29 14:37:55.242 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 14:37:58.125 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:37:58.127 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['financeirocampinas@peterpaiva.com.br']
+2026-04-29 14:37:59.324 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.1s (anti-detecção)
+2026-04-29 14:38:01.725 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:38:01.764 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['crpa40@hotmail.com']
+2026-04-29 14:38:02.823 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.6s (anti-detecção)
+2026-04-29 14:38:06.486 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:38:06.487 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['rh@wrparafusos.com.br']
+2026-04-29 14:38:06.731 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-29 14:38:09.619 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:38:09.640 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['josuepaula037@gmail.com']
+2026-04-29 14:38:10.195 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.8s (anti-detecção)
+2026-04-29 14:38:13.144 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:38:13.161 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['josuepaula037@gmail.com']
+2026-04-29 14:38:13.170 | INFO     | scraper.emprega_campinas:scrape_jobs:466 — Última página atingida — fim da paginação
+2026-04-29 14:38:13.800 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 14 brutas, 12 com e-mail, 2 descartadas (sem e-mail)
+2026-04-29 14:38:13.806 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:38:13.810 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:38:13.812 | INFO     | ai.matcher:process_one:115 — Analisando vaga 1/12: "BANHISTA DE PET SHOP / CAMPINAS / 2 VAGA(S)" @ Animal Center é uma empresa há 30 anos no mercado de Pet Shop em Campinas , especializada em cuidados de cães e Gatos
+2026-04-29 14:38:14.766 | INFO     | ai.matcher:process_one:115 — Analisando vaga 2/12: "ASSISTENTE DE CONTROLADORIA / CAMPINAS / 1 VAGA(S)" @ GM REIS – Industria e Comércio
+2026-04-29 14:38:14.772 | INFO     | ai.matcher:process_one:115 — Analisando vaga 3/12: "ASSISTENTE DE DP / CAMPINAS / 3 VAGA(S)" @ Escritório Contábil
+2026-04-29 14:38:14.778 | INFO     | ai.matcher:process_one:115 — Analisando vaga 4/12: "VENDEDORA / CAMPINAS / 1 VAGA(S)" @ Loja Center Panos Cambui, venda de materiais para artesanato, desde a agulha até a maquina de costura, com cursos inerentes ao negócio
+2026-04-29 14:38:14.796 | INFO     | ai.matcher:process_one:115 — Analisando vaga 5/12: "TÉCNICO(A) DE ENFERMAGEM / CAMPINAS / 8 VAGA(S)" @ Empresa confidencial
+2026-04-29 14:38:14.805 | INFO     | ai.matcher:process_one:115 — Analisando vaga 6/12: "SUPORTE TÉCNICO DE TI / CAMPINAS / 2 VAGA(S)" @ A Mix Fiscal é Líder Nacional em Soluções Tributárias e Mercadológicas para o Varejo.
+2026-04-29 14:38:14.805 | INFO     | ai.matcher:process_one:115 — Analisando vaga 7/12: "TÉCNICO(A) DE ENFERMAGEM / CAMPINAS / 5 VAGA(S)" @ Empresa confidencial
+2026-04-29 14:38:14.811 | INFO     | ai.matcher:process_one:115 — Analisando vaga 8/12: "REPOSITOR / CAMPINAS / 1 VAGA(S)" @ Armazém Peter Paiva Campinas é uma loja especializada em insumos para cosmética artesanal, essências materiais para velas, frascos etc
+2026-04-29 14:38:14.812 | INFO     | ai.matcher:process_one:115 — Analisando vaga 9/12: "LAVADOR AUTOMOTIVO / CAMPINAS / 2 VAGA(S)" @ Ws lava rapido
+2026-04-29 14:38:14.816 | INFO     | ai.matcher:process_one:115 — Analisando vaga 10/12: "CAIXA / CAMPINAS / 1 VAGA(S)" @ Empresa do ramo de ferragens e parafusos, focada em qualidade , agilidade e bom atendimento.
+2026-04-29 14:38:14.819 | INFO     | ai.matcher:process_one:115 — Analisando vaga 11/12: "ASSISTENTE FISCAL / VINHEDO / 1 VAGA(S)" @ EMPRESA DE CONTABILIDADE VINHEDO
+2026-04-29 14:38:14.823 | INFO     | ai.matcher:process_one:115 — Analisando vaga 12/12: "ASSISTENTE FISCAL / VINHEDO / 1 VAGA(S)" @ EMPRESA DE CONTABILIDADE DIGITAL – VINHEDO
+2026-04-29 14:38:20.166 | INFO     | ai.matcher:process_one:120 — Vaga 5: "TÉCNICO(A) DE ENFERMAGEM / CAMPINAS / 8 VAGA(S)" — Score 0%
+2026-04-29 14:38:20.405 | INFO     | ai.matcher:process_one:120 — Vaga 4: "VENDEDORA / CAMPINAS / 1 VAGA(S)" — Score 0%
+2026-04-29 14:38:21.596 | INFO     | ai.matcher:process_one:120 — Vaga 2: "ASSISTENTE DE CONTROLADORIA / CAMPINAS / 1 VAGA(S)" — Score 70%
+2026-04-29 14:38:22.296 | INFO     | ai.matcher:process_one:120 — Vaga 1: "BANHISTA DE PET SHOP / CAMPINAS / 2 VAGA(S)" — Score 0%
+2026-04-29 14:38:26.437 | INFO     | ai.matcher:process_one:120 — Vaga 7: "TÉCNICO(A) DE ENFERMAGEM / CAMPINAS / 5 VAGA(S)" — Score 0%
+2026-04-29 14:38:29.137 | INFO     | ai.matcher:process_one:120 — Vaga 9: "LAVADOR AUTOMOTIVO / CAMPINAS / 2 VAGA(S)" — Score 0%
+2026-04-29 14:38:29.673 | INFO     | ai.matcher:process_one:120 — Vaga 8: "REPOSITOR / CAMPINAS / 1 VAGA(S)" — Score 0%
+2026-04-29 14:38:30.399 | INFO     | ai.matcher:process_one:120 — Vaga 6: "SUPORTE TÉCNICO DE TI / CAMPINAS / 2 VAGA(S)" — Score 70%
+2026-04-29 14:38:33.237 | INFO     | ai.matcher:process_one:120 — Vaga 10: "CAIXA / CAMPINAS / 1 VAGA(S)" — Score 0%
+2026-04-29 14:38:34.173 | INFO     | ai.matcher:process_one:120 — Vaga 12: "ASSISTENTE FISCAL / VINHEDO / 1 VAGA(S)" — Score 40%
+2026-04-29 14:38:35.787 | INFO     | ai.matcher:process_one:120 — Vaga 11: "ASSISTENTE FISCAL / VINHEDO / 1 VAGA(S)" — Score 40%
+2026-04-29 14:39:53.924 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-29 14:40:11.456 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-29 14:40:11.460 | INFO     | __main__:main:25 — ============================================================
+2026-04-29 14:40:11.461 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-29 14:40:11.461 | INFO     | __main__:main:27 — ============================================================
+2026-04-29 14:40:11.493 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-29 14:40:11.638 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-29 14:40:11.639 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-29 14:40:13.620 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:40:19.444 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-29 14:40:31.166 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:40:33.313 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-29 14:40:36.314 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.0s (anti-detecção)
+2026-04-29 14:40:39.588 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 8 vagas encontradas
+2026-04-29 14:40:39.592 | INFO     | scraper.emprega_campinas:scrape_jobs:402 — Página 1: 8 vagas encontradas
+2026-04-29 14:40:40.254 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.7s (anti-detecção)
+2026-04-29 14:40:42.030 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:40:42.031 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-29 14:40:42.418 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.3s (anti-detecção)
+2026-04-29 14:40:44.854 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:40:44.871 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento.betel2026@gmail.com']
+2026-04-29 14:40:45.376 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-29 14:40:47.761 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:40:47.762 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-29 14:40:48.269 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-29 14:40:51.849 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:40:51.869 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-29 14:40:52.516 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-29 14:40:56.042 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:40:56.043 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['rh@fraga.com.br']
+2026-04-29 14:40:56.765 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.5s (anti-detecção)
+2026-04-29 14:40:59.432 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:40:59.435 | DEBUG    | scraper.email_extractor:filter_valid_emails:161 — Nenhum e-mail válido (de 1 encontrados)
+2026-04-29 14:40:59.436 | DEBUG    | scraper.emprega_campinas:scrape_jobs:447 — Descartada (sem e-mail): ESTÁGIO – TECNOLOGIA / CAMPINAS / 1 VAGA(S)
+2026-04-29 14:41:00.001 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.3s (anti-detecção)
+2026-04-29 14:41:04.197 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:41:04.320 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-29 14:41:05.025 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.7s (anti-detecção)
+2026-04-29 14:41:06.847 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-29 14:41:06.849 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-29 14:41:06.850 | INFO     | scraper.emprega_campinas:scrape_jobs:466 — Última página atingida — fim da paginação
+2026-04-29 14:41:07.088 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 8 brutas, 7 com e-mail, 1 descartadas (sem e-mail)
+2026-04-29 14:41:07.095 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:41:07.097 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-29 14:41:07.106 | INFO     | ai.matcher:process_one:115 — Analisando vaga 1/7: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" @ Empresa do ramo metalúrgico
+2026-04-29 14:41:08.334 | INFO     | ai.matcher:process_one:115 — Analisando vaga 2/7: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" @ Estamos em busca de um(a) estagiário(a) para atuar na área de desenvolvimento – TI
+2026-04-29 14:41:08.341 | INFO     | ai.matcher:process_one:115 — Analisando vaga 3/7: "ESTÁGIO EM TI / NOVA ODESSA / 1 VAGA(S)" @ Metalúrgica
+2026-04-29 14:41:08.347 | INFO     | ai.matcher:process_one:115 — Analisando vaga 4/7: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-29 14:41:08.356 | INFO     | ai.matcher:process_one:115 — Analisando vaga 5/7: "AUXILIAR DE COLETA DE DADOS / CAMPINAS/SP / 1 VAGA(S)" @ Fraga Inteligência automotiva
+2026-04-29 14:41:08.367 | INFO     | ai.matcher:process_one:115 — Analisando vaga 6/7: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-29 14:41:08.376 | INFO     | ai.matcher:process_one:115 — Analisando vaga 7/7: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-29 14:41:14.371 | INFO     | ai.matcher:process_one:120 — Vaga 3: "ESTÁGIO EM TI / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-29 14:41:15.788 | INFO     | ai.matcher:process_one:120 — Vaga 4: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" — Score 50%
+2026-04-29 14:41:15.938 | INFO     | ai.matcher:process_one:120 — Vaga 2: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" — Score 60%
+2026-04-29 14:41:16.573 | INFO     | ai.matcher:process_one:120 — Vaga 1: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-29 14:41:17.211 | INFO     | ai.matcher:process_one:120 — Vaga 5: "AUXILIAR DE COLETA DE DADOS / CAMPINAS/SP / 1 VAGA(S)" — Score 90%
+2026-04-29 14:41:19.941 | INFO     | ai.matcher:process_one:120 — Vaga 6: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" — Score 80%
+2026-04-29 14:41:26.276 | INFO     | ai.matcher:process_one:120 — Vaga 7: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" — Score 80%

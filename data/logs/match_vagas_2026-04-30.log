@@ -1,0 +1,163 @@
+2026-04-30 09:05:28.439 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-30 09:05:28.439 | INFO     | __main__:main:25 — ============================================================
+2026-04-30 09:05:28.439 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-30 09:05:28.441 | INFO     | __main__:main:27 — ============================================================
+2026-04-30 09:05:28.478 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-30 09:05:28.541 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-30 09:05:28.541 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-30 09:05:30.637 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:15:47.915 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-30 09:15:58.403 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:16:01.084 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-30 09:16:06.161 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.5s (anti-detecção)
+2026-04-30 09:16:08.848 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 0 vagas encontradas
+2026-04-30 09:16:08.853 | INFO     | scraper.emprega_campinas:scrape_jobs:399 — Nenhuma vaga na página 1 — fim da paginação
+2026-04-30 09:16:09.256 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 0 brutas, 0 com e-mail, 0 descartadas (sem e-mail)
+2026-04-30 09:16:29.045 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:16:29.914 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-30 09:16:32.456 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.9s (anti-detecção)
+2026-04-30 09:16:35.453 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 8 vagas encontradas
+2026-04-30 09:16:35.487 | INFO     | scraper.emprega_campinas:scrape_jobs:402 — Página 1: 8 vagas encontradas
+2026-04-30 09:16:36.321 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.2s (anti-detecção)
+2026-04-30 09:16:39.556 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:16:39.587 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-30 09:16:41.086 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.2s (anti-detecção)
+2026-04-30 09:16:44.599 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:16:44.620 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento.betel2026@gmail.com']
+2026-04-30 09:16:45.139 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.4s (anti-detecção)
+2026-04-30 09:16:48.763 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:16:48.768 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-30 09:16:49.204 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.5s (anti-detecção)
+2026-04-30 09:16:52.795 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:16:52.796 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-30 09:16:53.512 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 2.7s (anti-detecção)
+2026-04-30 09:17:02.256 | WARNING  | scraper.emprega_campinas:scrape_jobs:429 — Falha ao carregar detalhe: https://empregacampinas.com.br/auxiliar-de-coleta-de-dados-campinas-sp-1-vagas/
+2026-04-30 09:17:08.289 | WARNING  | scraper.emprega_campinas:scrape_jobs:429 — Falha ao carregar detalhe: https://empregacampinas.com.br/estagio-tecnologia-campinas-1-vagas/
+2026-04-30 09:17:14.325 | WARNING  | scraper.emprega_campinas:scrape_jobs:429 — Falha ao carregar detalhe: https://empregacampinas.com.br/instrutor-a-de-programacao-campinas-1-vagas-3/
+2026-04-30 09:17:20.357 | WARNING  | scraper.emprega_campinas:scrape_jobs:429 — Falha ao carregar detalhe: https://empregacampinas.com.br/instrutor-a-de-programacao-campinas-1-vagas-2/
+2026-04-30 09:17:20.357 | INFO     | scraper.emprega_campinas:scrape_jobs:466 — Última página atingida — fim da paginação
+2026-04-30 09:17:20.483 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 8 brutas, 4 com e-mail, 0 descartadas (sem e-mail)
+2026-04-30 09:17:20.486 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:17:20.488 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:17:20.491 | INFO     | ai.matcher:process_one:115 — Analisando vaga 1/4: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" @ Empresa do ramo metalúrgico
+2026-04-30 09:17:21.447 | INFO     | ai.matcher:process_one:115 — Analisando vaga 2/4: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" @ Estamos em busca de um(a) estagiário(a) para atuar na área de desenvolvimento – TI
+2026-04-30 09:17:21.447 | INFO     | ai.matcher:process_one:115 — Analisando vaga 3/4: "ESTÁGIO EM TI / NOVA ODESSA / 1 VAGA(S)" @ Metalúrgica
+2026-04-30 09:17:21.447 | INFO     | ai.matcher:process_one:115 — Analisando vaga 4/4: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-30 09:17:27.995 | INFO     | ai.matcher:process_one:120 — Vaga 4: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" — Score 50%
+2026-04-30 09:17:28.547 | INFO     | ai.matcher:process_one:120 — Vaga 2: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" — Score 70%
+2026-04-30 09:17:28.685 | INFO     | ai.matcher:process_one:120 — Vaga 1: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-30 09:17:29.112 | INFO     | ai.matcher:process_one:120 — Vaga 3: "ESTÁGIO EM TI / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-30 09:24:18.703 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-30 09:26:08.506 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-30 09:26:08.507 | INFO     | __main__:main:25 — ============================================================
+2026-04-30 09:26:08.508 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-30 09:26:08.508 | INFO     | __main__:main:27 — ============================================================
+2026-04-30 09:26:08.541 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-30 09:26:08.614 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-30 09:26:08.614 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-30 09:26:10.384 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:26:16.077 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-30 09:26:39.812 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:26:41.752 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-30 09:26:41.774 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/?s=Python
+2026-04-30 09:26:41.909 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 8 vagas encontradas
+2026-04-30 09:26:41.909 | INFO     | scraper.emprega_campinas:scrape_jobs:402 — Página 1: 8 vagas encontradas
+2026-04-30 09:26:41.928 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/estagiario-em-ti-nova-odessa-1-vagas/
+2026-04-30 09:26:41.993 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:41.993 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-30 09:26:42.000 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/estagio-ti-desenvolvimento-betel-paulinia-1-vagas/
+2026-04-30 09:26:42.012 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:42.012 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento.betel2026@gmail.com']
+2026-04-30 09:26:42.019 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/estagio-em-ti-nova-odessa-1-vagas/
+2026-04-30 09:26:42.028 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:42.030 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-30 09:26:42.030 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/professor-de-informatica-campinas-1-vagas/
+2026-04-30 09:26:42.044 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:42.048 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-30 09:26:43.504 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.9s (anti-detecção)
+2026-04-30 09:26:45.888 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:45.889 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['rh@fraga.com.br']
+2026-04-30 09:26:46.216 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.9s (anti-detecção)
+2026-04-30 09:26:48.682 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:48.695 | DEBUG    | scraper.email_extractor:filter_valid_emails:161 — Nenhum e-mail válido (de 1 encontrados)
+2026-04-30 09:26:48.719 | DEBUG    | scraper.emprega_campinas:scrape_jobs:447 — Descartada (sem e-mail): ESTÁGIO – TECNOLOGIA / CAMPINAS / 1 VAGA(S)
+2026-04-30 09:26:49.368 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 3.0s (anti-detecção)
+2026-04-30 09:26:52.437 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:52.438 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-30 09:26:52.892 | DEBUG    | utils.anti_detection:random_delay:64 — Aguardando 1.7s (anti-detecção)
+2026-04-30 09:26:54.725 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:26:54.726 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-30 09:26:54.735 | INFO     | scraper.emprega_campinas:scrape_jobs:466 — Última página atingida — fim da paginação
+2026-04-30 09:26:55.154 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 8 brutas, 7 com e-mail, 1 descartadas (sem e-mail)
+2026-04-30 09:26:55.158 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:26:55.162 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:26:55.165 | INFO     | ai.matcher:process_one:115 — Analisando vaga 1/7: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" @ Empresa do ramo metalúrgico
+2026-04-30 09:26:55.929 | INFO     | ai.matcher:process_one:115 — Analisando vaga 2/7: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" @ Estamos em busca de um(a) estagiário(a) para atuar na área de desenvolvimento – TI
+2026-04-30 09:26:55.935 | INFO     | ai.matcher:process_one:115 — Analisando vaga 3/7: "ESTÁGIO EM TI / NOVA ODESSA / 1 VAGA(S)" @ Metalúrgica
+2026-04-30 09:26:55.941 | INFO     | ai.matcher:process_one:115 — Analisando vaga 4/7: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-30 09:26:55.945 | INFO     | ai.matcher:process_one:115 — Analisando vaga 5/7: "AUXILIAR DE COLETA DE DADOS / CAMPINAS/SP / 1 VAGA(S)" @ Fraga Inteligência automotiva
+2026-04-30 09:26:55.948 | INFO     | ai.matcher:process_one:115 — Analisando vaga 6/7: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-30 09:26:55.950 | INFO     | ai.matcher:process_one:115 — Analisando vaga 7/7: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-30 09:27:02.294 | INFO     | ai.matcher:process_one:120 — Vaga 2: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" — Score 60%
+2026-04-30 09:27:02.507 | INFO     | ai.matcher:process_one:120 — Vaga 4: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" — Score 50%
+2026-04-30 09:27:02.712 | INFO     | ai.matcher:process_one:120 — Vaga 5: "AUXILIAR DE COLETA DE DADOS / CAMPINAS/SP / 1 VAGA(S)" — Score 80%
+2026-04-30 09:27:02.886 | INFO     | ai.matcher:process_one:120 — Vaga 3: "ESTÁGIO EM TI / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-30 09:27:03.130 | INFO     | ai.matcher:process_one:120 — Vaga 1: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-30 09:27:09.067 | INFO     | ai.matcher:process_one:120 — Vaga 6: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" — Score 80%
+2026-04-30 09:27:09.397 | INFO     | ai.matcher:process_one:120 — Vaga 7: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" — Score 80%
+2026-04-30 09:29:20.386 | INFO     | __main__:main:45 — Aplicação encerrada
+2026-04-30 09:44:34.375 | DEBUG    | utils.logger:setup_logger:51 — Logger configurado com sucesso
+2026-04-30 09:44:34.376 | INFO     | __main__:main:25 — ============================================================
+2026-04-30 09:44:34.376 | INFO     | __main__:main:26 — Match Vagas — Iniciando aplicação
+2026-04-30 09:44:34.377 | INFO     | __main__:main:27 — ============================================================
+2026-04-30 09:44:34.415 | DEBUG    | core.database:get_engine:184 — Engine SQLAlchemy criada: c:\Users\ryan.leite\Documents\GitHub\Caça-Talentos\match_vagas\data\vagas.db
+2026-04-30 09:44:34.515 | INFO     | core.database:init_database:200 — Tabelas do banco de dados criadas/verificadas
+2026-04-30 09:44:34.517 | INFO     | __main__:main:32 — Banco de dados inicializado com sucesso
+2026-04-30 09:44:36.608 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:44:41.876 | INFO     | ai.resume_parser:parse_resume:141 — CV encontrado no cache
+2026-04-30 09:47:45.262 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:47:47.545 | DEBUG    | utils.anti_detection:apply_stealth_scripts:150 — Scripts de stealth aplicados na página
+2026-04-30 09:47:47.630 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/?s=Python
+2026-04-30 09:47:47.914 | DEBUG    | scraper.emprega_campinas:parse_job_listing_page:165 — parse_job_listing_page: 8 vagas encontradas
+2026-04-30 09:47:47.915 | INFO     | scraper.emprega_campinas:scrape_jobs:402 — Página 1: 8 vagas encontradas
+2026-04-30 09:47:47.938 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/estagiario-em-ti-nova-odessa-1-vagas/
+2026-04-30 09:47:48.010 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.011 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-30 09:47:48.015 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/estagio-ti-desenvolvimento-betel-paulinia-1-vagas/
+2026-04-30 09:47:48.030 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.030 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['recrutamento.betel2026@gmail.com']
+2026-04-30 09:47:48.037 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/estagio-em-ti-nova-odessa-1-vagas/
+2026-04-30 09:47:48.048 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.048 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['consultoriacomrh@gmail.com']
+2026-04-30 09:47:48.051 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/professor-de-informatica-campinas-1-vagas/
+2026-04-30 09:47:48.063 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.063 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-30 09:47:48.065 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/auxiliar-de-coleta-de-dados-campinas-sp-1-vagas/
+2026-04-30 09:47:48.078 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.078 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['rh@fraga.com.br']
+2026-04-30 09:47:48.083 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/estagio-tecnologia-campinas-1-vagas/
+2026-04-30 09:47:48.092 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.092 | DEBUG    | scraper.email_extractor:filter_valid_emails:161 — Nenhum e-mail válido (de 1 encontrados)
+2026-04-30 09:47:48.093 | DEBUG    | scraper.emprega_campinas:scrape_jobs:447 — Descartada (sem e-mail): ESTÁGIO – TECNOLOGIA / CAMPINAS / 1 VAGA(S)
+2026-04-30 09:47:48.096 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/instrutor-a-de-programacao-campinas-1-vagas-3/
+2026-04-30 09:47:48.109 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.110 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-30 09:47:48.113 | DEBUG    | scraper.emprega_campinas:get_cached_page:50 — Cache hit: https://empregacampinas.com.br/instrutor-a-de-programacao-campinas-1-vagas-2/
+2026-04-30 09:47:48.125 | DEBUG    | scraper.email_extractor:filter_valid_emails:142 — E-mail genérico descartado: contato@empregacampinas.com.br
+2026-04-30 09:47:48.126 | DEBUG    | scraper.email_extractor:filter_valid_emails:159 — E-mails válidos encontrados: ['guanabara@cna.com.br']
+2026-04-30 09:47:48.127 | INFO     | scraper.emprega_campinas:scrape_jobs:466 — Última página atingida — fim da paginação
+2026-04-30 09:47:48.222 | INFO     | scraper.emprega_campinas:scrape_jobs:476 — Scraping concluído: 8 brutas, 7 com e-mail, 1 descartadas (sem e-mail)
+2026-04-30 09:47:48.230 | INFO     | gui.app:_search_pipeline:354 — Deduplicação: 7 → 5 (2 removidas)
+2026-04-30 09:47:48.273 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:47:48.278 | DEBUG    | utils.crypto:_get_or_create_key:53 — Chave Fernet carregada do disco
+2026-04-30 09:47:48.279 | INFO     | ai.matcher:process_one:115 — Analisando vaga 1/5: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" @ Empresa do ramo metalúrgico
+2026-04-30 09:47:49.213 | INFO     | ai.matcher:process_one:115 — Analisando vaga 2/5: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" @ Estamos em busca de um(a) estagiário(a) para atuar na área de desenvolvimento – TI
+2026-04-30 09:47:49.217 | INFO     | ai.matcher:process_one:115 — Analisando vaga 3/5: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-30 09:47:49.221 | INFO     | ai.matcher:process_one:115 — Analisando vaga 4/5: "AUXILIAR DE COLETA DE DADOS / CAMPINAS/SP / 1 VAGA(S)" @ Fraga Inteligência automotiva
+2026-04-30 09:47:49.225 | INFO     | ai.matcher:process_one:115 — Analisando vaga 5/5: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" @ Escola de programação e robótica atuante em Campinas desde 2015
+2026-04-30 09:47:55.249 | INFO     | ai.matcher:process_one:120 — Vaga 5: "INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)" — Score 80%
+2026-04-30 09:47:55.877 | INFO     | ai.matcher:process_one:120 — Vaga 3: "PROFESSOR DE INFORMÁTICA / CAMPINAS / 1 VAGA(S)" — Score 40%
+2026-04-30 09:47:56.168 | INFO     | ai.matcher:process_one:120 — Vaga 1: "ESTAGIÁRIO EM TI / NOVA ODESSA / 1 VAGA(S)" — Score 40%
+2026-04-30 09:47:58.463 | INFO     | ai.matcher:process_one:120 — Vaga 4: "AUXILIAR DE COLETA DE DADOS / CAMPINAS/SP / 1 VAGA(S)" — Score 70%
+2026-04-30 09:52:04.703 | INFO     | ai.matcher:process_one:120 — Vaga 2: "ESTAGIO TI – DESENVOLVIMENTO / BETEL –  PAULÍNIA / 1 VAGA(S)" — Score 60%
+2026-04-30 10:16:28.000 | INFO     | gui.app:_on_save_job:491 — Vaga salva: INSTRUTOR/A DE PROGRAMAÇÃO / CAMPINAS / 1 VAGA(S)
